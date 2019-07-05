@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ruigou-common/ruigou-common.iml" filepath="$PROJECT_DIR$/ruigou-common/ruigou-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruigou-manage/ruigou-manage.iml" filepath="$PROJECT_DIR$/ruigou-manage/ruigou-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruigou-manage/ruigou-manage-mapper/ruigou-manage-mapper.iml" filepath="$PROJECT_DIR$/ruigou-manage/ruigou-manage-mapper/ruigou-manage-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruigou-manage/ruigou-manage-pojo/ruigou-manage-pojo.iml" filepath="$PROJECT_DIR$/ruigou-manage/ruigou-manage-pojo/ruigou-manage-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruigou-manage/ruigou-manage-service/ruigou-manage-service.iml" filepath="$PROJECT_DIR$/ruigou-manage/ruigou-manage-service/ruigou-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruigou-manage/ruigou-manage-web/ruigou-manage-web.iml" filepath="$PROJECT_DIR$/ruigou-manage/ruigou-manage-web/ruigou-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruigou-parent/ruigou-parent.iml" filepath="$PROJECT_DIR$/ruigou-parent/ruigou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruigou-portal/ruigou-portal.iml" filepath="$PROJECT_DIR$/ruigou-portal/ruigou-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruigou-rest/ruigou-rest.iml" filepath="$PROJECT_DIR$/ruigou-rest/ruigou-rest.iml" />
+    </modules>
+  </component>
+</project>
