@@ -12,7 +12,7 @@
     <artifactId>ruigou-manage-web</artifactId>
     <packaging>war</packaging>
 
-    <name>ruigou-manage-web Maven Webapp</name>
+    <name>ruigou-manage-web</name>
 
     <dependencies>
         <dependency>

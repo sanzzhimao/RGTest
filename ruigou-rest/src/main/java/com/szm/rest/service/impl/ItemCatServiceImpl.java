@@ -41,6 +41,7 @@ public class ItemCatServiceImpl implements ItemCatService {
         criteria.andParentIdEqualTo(parentId);
         List<TbItemCat> list=mapper.selectByExample(example);
         List resultList=new ArrayList<>();
+        int count=0;
         for (TbItemCat t:list){
             CatNode node=new CatNode();
             if (t.getIsParent()){
@@ -48,6 +49,10 @@ public class ItemCatServiceImpl implements ItemCatService {
                 if (parentId==0){
                     //一级节点，名称带有a标签
                     node.setName("<a href='/product/"+t.getId()+".html'>"+t.getName()+"</a>");
+
+                    //计数
+                    count++;
+                    if (parentId==0 && count>=14) break;
                 }else {
                     //耳机节点，名称是类目的名字
                     node.setName(t.getName());

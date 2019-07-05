@@ -12,6 +12,6 @@ public class PageTrunController {
     @RequestMapping("/main")
     public String toMain(){
         System.out.println("to main..");
-        return "hello";
+        return "index";
     }
 }

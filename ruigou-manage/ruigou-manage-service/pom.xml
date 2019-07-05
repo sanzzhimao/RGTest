@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ruigou-manage-service</artifactId>
     <packaging>jar</packaging>
-    <name>业务</name>
+    <name>ruigou-manage-service</name>
 
     <dependencies>
         <dependency>

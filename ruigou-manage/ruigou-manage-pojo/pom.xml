@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>ruigou-manage-pojo</artifactId>
     <packaging>jar</packaging>
-    <name>实体</name>
+    <name>ruigou-manage-pojo</name>
 
 
 </project>
