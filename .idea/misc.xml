@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/ruigou-common" />
+    <file type="web" url="file://$PROJECT_DIR$/ruigou-manage" />
+    <file type="web" url="file://$PROJECT_DIR$/ruigou-portal" />
+    <file type="web" url="file://$PROJECT_DIR$/ruigou-rest" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ruigou-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/ruigou-common/pom.xml" />
+        <option value="$PROJECT_DIR$/ruigou-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/ruigou-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/ruigou-portal/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
