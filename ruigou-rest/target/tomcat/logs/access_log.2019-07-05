@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:54 +0800] "GET /rest/itemcat/list?callBack=category.getDataService HTTP/1.1" 406 1067 http-bio-9998-exec-2 251092
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:54 +0800] "GET /rest/itemcat/list?callBack=category.getDataService HTTP/1.1" 406 1067 http-bio-9998-exec-9 122451
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:54 +0800] "GET /rest/itemcat/list?callBack=category.getDataService HTTP/1.1" 406 1067 http-bio-9998-exec-4 227996
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:54 +0800] "GET /rest/itemcat/list?callBack=category.getDataService HTTP/1.1" 406 1067 http-bio-9998-exec-3 241703
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:54 +0800] "GET /rest/itemcat/list?callBack=category.getDataService HTTP/1.1" 406 1067 http-bio-9998-exec-1 257353
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:54 +0800] "GET /rest/itemcat/list?callBack=category.getDataService HTTP/1.1" 406 1067 http-bio-9998-exec-7 159874
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:54 +0800] "GET /rest/itemcat/list?callBack=category.getDataService HTTP/1.1" 406 1067 http-bio-9998-exec-6 151956
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:54 +0800] "GET /rest/itemcat/list?callBack=category.getDataService HTTP/1.1" 406 1067 http-bio-9998-exec-10 86680
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:55 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9998-exec-10 3
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:56 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-9998-exec-7 1
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:01:57 +0800] "GET /rest/itemcat/list?callBack=category.getDataService HTTP/1.1" 406 1067 http-bio-9998-exec-10 133
+0:0:0:0:0:0:0:1 - - [05/Jul/2019:12:02:12 +0800] "GET /rest/itemcat/list?callBack=category.getDataService HTTP/1.1" 406 1067 http-bio-9998-exec-5 72
