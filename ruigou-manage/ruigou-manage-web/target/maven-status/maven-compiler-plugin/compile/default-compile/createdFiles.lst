@@ -1,0 +1,6 @@
+com\szm\controller\IndexController.class
+com\szm\controller\TbItemParamController.class
+com\szm\controller\UserController.class
+com\szm\controller\PageController.class
+com\szm\controller\TbItemCatController.class
+com\szm\controller\HelloController.class
