@@ -1,9 +1,9 @@
 package com.szm.service;
 
-import com.szm.pojo.ItemCatTreeNode;
+import com.szm.pojo.EUTreeNode;
 
 import java.util.List;
 
 public interface ITbItemCatService {
-    List<ItemCatTreeNode> getItemCatList(long parentId);
+    List<EUTreeNode> getItemCatList(long parentId);
 }

@@ -1,6 +1,7 @@
 package com.szm.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -8,9 +9,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class PageController {
+
+    /**
+     * 打开后台首页
+     * @return
+     */
     @RequestMapping("/")
     public String showIndex(){
-        System.out.println("to index.jsp");
         return "index";
+    }
+    @RequestMapping("/{page}")
+    public String getPage(@PathVariable String page){
+        return page;
     }
 }

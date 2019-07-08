@@ -20,7 +20,8 @@ public class ItemCatController {
      * @param callBack 回调函数参数名
      * @return Object-4.0 返回带有回调函数名称的object
      */
-    @RequestMapping(value = "/rest/itemcat/list",produces = MediaType.APPLICATION_JSON_VALUE+";charset:utf-8")
+    /**/
+    @RequestMapping(value = "/itemcat/list",produces = MediaType.APPLICATION_JSON_VALUE+";charset:utf-8")
     @ResponseBody
     public Object getItemCat(String callBack){
         //3.0
@@ -29,7 +30,7 @@ public class ItemCatController {
         //连接callBack+resultjson串
         //返回js串
         return null;*/
-
+        System.out.println("itemcat..");
 
         //4.0
         CatResult result=serivice.getItemCat();

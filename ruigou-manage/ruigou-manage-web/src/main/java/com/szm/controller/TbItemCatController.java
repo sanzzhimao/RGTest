@@ -1,6 +1,6 @@
 package com.szm.controller;
 
-import com.szm.pojo.ItemCatTreeNode;
+import com.szm.pojo.EUTreeNode;
 import com.szm.service.ITbItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,8 +19,8 @@ public class TbItemCatController {
 
     @RequestMapping("/list")
     @ResponseBody
-    public List<ItemCatTreeNode> getItemCatList(@RequestParam(value = "id",defaultValue = "0") long parentId){
-        List<ItemCatTreeNode> list=service.getItemCatList(parentId);
+    public List<EUTreeNode> getItemCatList(@RequestParam(value = "id",defaultValue = "0") long parentId){
+        List<EUTreeNode> list=service.getItemCatList(parentId);
         System.out.println(list.toString());
         return list;
     }

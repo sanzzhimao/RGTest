@@ -1,6 +1,6 @@
 package com.szm.service.impl;
 
-import com.szm.pojo.ItemCatTreeNode;
+import com.szm.pojo.EUTreeNode;
 import com.szm.mapper.TbItemCatMapper;
 import com.szm.pojo.TbItemCat;
 import com.szm.pojo.TbItemCatExample;
@@ -18,17 +18,17 @@ public class TbItemCatServiceImpl implements ITbItemCatService {
     private TbItemCatMapper tbItemCatMapper;
 
     @Override
-    public List<ItemCatTreeNode> getItemCatList(long parentId) {
+    public List<EUTreeNode> getItemCatList(long parentId) {
         TbItemCatExample example=new TbItemCatExample();
         TbItemCatExample.Criteria criteria = example.createCriteria();
         criteria.andParentIdEqualTo(parentId);
         List<TbItemCat> itemCats=tbItemCatMapper.selectByExample(example);
-        List<ItemCatTreeNode> list=new ArrayList<>();
+        List<EUTreeNode> list=new ArrayList<>();
         for (TbItemCat itemCat:itemCats){
-            ItemCatTreeNode catTreeNode=new ItemCatTreeNode();
+            EUTreeNode catTreeNode=new EUTreeNode();
             catTreeNode.setId(itemCat.getId());
-            catTreeNode.setName(itemCat.getName());
-            catTreeNode.setState(itemCat.getStatus()==1?"closed":"open");
+            catTreeNode.setText(itemCat.getName());
+            catTreeNode.setState(itemCat.getIsParent()?"closed":"open");
             list.add(catTreeNode);
         }
         return list;
