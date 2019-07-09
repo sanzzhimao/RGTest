@@ -1,6 +1,6 @@
 package com.szm.service.impl;
 
-import com.szm.mapper.TbContentCategoryMapper;
+import com.szm.search.mapper.TbContentCategoryMapper;
 import com.szm.pojo.EUTreeNode;
 import com.szm.pojo.RuigouResult;
 import com.szm.pojo.TbContentCategory;

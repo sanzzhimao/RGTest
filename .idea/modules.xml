@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/ruigou-parent/ruigou-parent.iml" filepath="$PROJECT_DIR$/ruigou-parent/ruigou-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/ruigou-portal/ruigou-portal.iml" filepath="$PROJECT_DIR$/ruigou-portal/ruigou-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/ruigou-rest/ruigou-rest.iml" filepath="$PROJECT_DIR$/ruigou-rest/ruigou-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruigou-search/ruigou-search.iml" filepath="$PROJECT_DIR$/ruigou-search/ruigou-search.iml" />
     </modules>
   </component>
 </project>

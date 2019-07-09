@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ruigou-manage" />
     <file type="web" url="file://$PROJECT_DIR$/ruigou-portal" />
     <file type="web" url="file://$PROJECT_DIR$/ruigou-rest" />
+    <file type="web" url="file://$PROJECT_DIR$/ruigou-search" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -14,6 +15,7 @@
         <option value="$PROJECT_DIR$/ruigou-manage/pom.xml" />
         <option value="$PROJECT_DIR$/ruigou-rest/pom.xml" />
         <option value="$PROJECT_DIR$/ruigou-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/ruigou-search/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,6 +1,6 @@
 package com.szm.rest.service.impl;
 
-import com.szm.mapper.TbItemCatMapper;
+import com.szm.search.mapper.TbItemCatMapper;
 import com.szm.pojo.TbItemCat;
 import com.szm.pojo.TbItemCatExample;
 import com.szm.rest.pojo.CatNode;

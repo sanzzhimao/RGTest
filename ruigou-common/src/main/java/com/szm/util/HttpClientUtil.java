@@ -35,17 +35,19 @@ public class HttpClientUtil {
         CloseableHttpClient httpClient= HttpClients.createDefault();
         String resultString="";
         CloseableHttpResponse response=null;
-        URIBuilder builder= null;
         try {
-            builder = new URIBuilder(url);
+            URIBuilder builder = new URIBuilder(url);
             if (param!=null){
+                //参数如果不为空，将参数设置到请求uri中
                 for (String key:param.keySet()){
                     builder.addParameter(key,param.get(key));
                 }
             }
+            //构建uri对象
             URI uri=builder.build();
             HttpGet httpGet=new HttpGet(uri);
             response=httpClient.execute(httpGet);
+            //成功之后，获取请求的响应，utf-8格式
             if (response.getStatusLine().getStatusCode()==200){
                 resultString= EntityUtils.toString(response.getEntity(),"utf-8");
             }
@@ -88,10 +90,10 @@ public class HttpClientUtil {
                 for (String key:param.keySet()){
                     paramList.add(new BasicNameValuePair(key,param.get(key)));
                 }
+                //模拟表单，post请求参数不应该是在url中，而是在请求体里面
                 UrlEncodedFormEntity entity=new UrlEncodedFormEntity(paramList);
                 httpPost.setEntity(entity);
             }
-
             response=httpClient.execute(httpPost);
             if (response.getStatusLine().getStatusCode()==200){
                 resultString= EntityUtils.toString(response.getEntity(),"utf-8");
@@ -124,6 +126,7 @@ public class HttpClientUtil {
         CloseableHttpResponse response=null;
         try {
             HttpPost httpPost=new HttpPost(url);
+            //创建请求参数内容
             StringEntity entity=new StringEntity(json, ContentType.APPLICATION_JSON);
             httpPost.setEntity(entity);
             response=httpClient.execute(httpPost);

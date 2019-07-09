@@ -3,6 +3,7 @@ package com.szm.rest.controller;
 import com.szm.pojo.RuigouResult;
 import com.szm.pojo.TbContent;
 import com.szm.rest.service.IContentService;
+import com.szm.util.ExceptionUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -36,7 +37,7 @@ public class ContentController {
             return RuigouResult.ok(list);
         }catch (Exception e){
             //发生错误，则返回不成功的result
-            return RuigouResult.build(500,null);
+            return RuigouResult.build(500, ExceptionUtil.getStackTrave(e));
         }
     }
 }

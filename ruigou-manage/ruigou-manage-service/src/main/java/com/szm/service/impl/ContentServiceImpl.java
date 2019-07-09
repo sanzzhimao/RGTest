@@ -2,7 +2,7 @@ package com.szm.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.szm.mapper.TbContentMapper;
+import com.szm.search.mapper.TbContentMapper;
 import com.szm.pojo.*;
 import com.szm.service.IContentService;
 import org.springframework.beans.factory.annotation.Autowired;

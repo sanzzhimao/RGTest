@@ -1,7 +1,7 @@
 package com.szm.service.impl;
 
 import com.szm.pojo.EUTreeNode;
-import com.szm.mapper.TbItemCatMapper;
+import com.szm.search.mapper.TbItemCatMapper;
 import com.szm.pojo.TbItemCat;
 import com.szm.pojo.TbItemCatExample;
 import com.szm.service.ITbItemCatService;

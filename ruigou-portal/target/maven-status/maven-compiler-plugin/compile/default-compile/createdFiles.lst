@@ -1,1 +1,3 @@
+com\szm\portal\service\IContentService.class
 com\szm\portal\controller\PageTrunController.class
+com\szm\portal\service\impl\ContentServiceImpl.class

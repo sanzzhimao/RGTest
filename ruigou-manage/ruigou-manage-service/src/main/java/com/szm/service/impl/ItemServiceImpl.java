@@ -2,7 +2,7 @@ package com.szm.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.szm.mapper.TbItemMapper;
+import com.szm.search.mapper.TbItemMapper;
 import com.szm.pojo.EasyUIDateGrid;
 import com.szm.pojo.TbItem;
 import com.szm.pojo.TbItemExample;
