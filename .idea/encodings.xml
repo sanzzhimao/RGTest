@@ -11,5 +11,6 @@
     <file url="file://$PROJECT_DIR$/ruigou-portal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruigou-rest" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ruigou-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ruigou-sso" charset="UTF-8" />
   </component>
 </project>

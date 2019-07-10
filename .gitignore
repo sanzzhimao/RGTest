@@ -4,8 +4,6 @@
 ### Java template
 # IntelliJ project files
 .idea
-*.iml
-*.xml
 out
 gen
 # Compiled class file

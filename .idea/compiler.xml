@@ -10,9 +10,10 @@
         <module name="ruigou-portal" />
         <module name="ruigou-manage-mapper" />
         <module name="ruigou-common" />
-        <module name="ruigou-manage-pojo" />
+        <module name="ruigou-sso" />
         <module name="ruigou-manage-web" />
         <module name="ruigou-search" />
+        <module name="ruigou-manage-pojo" />
         <module name="ruigou-manage-service" />
       </profile>
     </annotationProcessing>
@@ -27,6 +28,7 @@
       <module name="ruigou-portal" target="1.7" />
       <module name="ruigou-rest" target="1.7" />
       <module name="ruigou-search" target="1.7" />
+      <module name="ruigou-sso" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
