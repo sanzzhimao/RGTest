@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/ruigou-manage/ruigou-manage-pojo/ruigou-manage-pojo.iml" filepath="$PROJECT_DIR$/ruigou-manage/ruigou-manage-pojo/ruigou-manage-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ruigou-manage/ruigou-manage-service/ruigou-manage-service.iml" filepath="$PROJECT_DIR$/ruigou-manage/ruigou-manage-service/ruigou-manage-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ruigou-manage/ruigou-manage-web/ruigou-manage-web.iml" filepath="$PROJECT_DIR$/ruigou-manage/ruigou-manage-web/ruigou-manage-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ruigou-order/ruigou-order.iml" filepath="$PROJECT_DIR$/ruigou-order/ruigou-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/ruigou-parent/ruigou-parent.iml" filepath="$PROJECT_DIR$/ruigou-parent/ruigou-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/ruigou-portal/ruigou-portal.iml" filepath="$PROJECT_DIR$/ruigou-portal/ruigou-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/ruigou-rest/ruigou-rest.iml" filepath="$PROJECT_DIR$/ruigou-rest/ruigou-rest.iml" />

@@ -1,8 +1,13 @@
-E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\controller\ItemCatController.java
 E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\pojo\CatResult.java
-E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\service\IContentService.java
-E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\pojo\CatNode.java
+E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\dao\impl\JedisClientCluster.java
+E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\service\IRedisService.java
 E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\service\ItemCatService.java
 E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\service\impl\ItemCatServiceImpl.java
-E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\service\impl\ContentServiceImpl.java
 E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\controller\ContentController.java
+E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\controller\ItemCatController.java
+E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\service\IContentService.java
+E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\service\impl\RedisServiceImpl.java
+E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\pojo\CatNode.java
+E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\dao\IJedisClient.java
+E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\service\impl\ContentServiceImpl.java
+E:\my documents\documents\IDEAPROJECTS\ruigou\ruigou-rest\src\main\java\com\szm\rest\controller\RedisController.java

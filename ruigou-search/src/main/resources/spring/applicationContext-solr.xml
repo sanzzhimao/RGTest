@@ -12,4 +12,5 @@
     <bean class="org.apache.solr.client.solrj.impl.HttpSolrServer" id="solrServer">
         <constructor-arg name="baseURL" value="http://192.168.15.128:9000/solr"/>
     </bean>
+
 </beans>

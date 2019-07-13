@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ruigou-common" />
     <file type="web" url="file://$PROJECT_DIR$/ruigou-manage" />
+    <file type="web" url="file://$PROJECT_DIR$/ruigou-order" />
     <file type="web" url="file://$PROJECT_DIR$/ruigou-portal" />
     <file type="web" url="file://$PROJECT_DIR$/ruigou-rest" />
     <file type="web" url="file://$PROJECT_DIR$/ruigou-search" />
@@ -18,6 +19,7 @@
         <option value="$PROJECT_DIR$/ruigou-portal/pom.xml" />
         <option value="$PROJECT_DIR$/ruigou-search/pom.xml" />
         <option value="$PROJECT_DIR$/ruigou-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/ruigou-order/pom.xml" />
       </list>
     </option>
   </component>

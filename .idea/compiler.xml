@@ -8,13 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ruigou-rest" />
         <module name="ruigou-portal" />
+        <module name="ruigou-manage-service" />
         <module name="ruigou-manage-mapper" />
+        <module name="ruigou-order" />
         <module name="ruigou-common" />
-        <module name="ruigou-sso" />
         <module name="ruigou-manage-web" />
         <module name="ruigou-search" />
         <module name="ruigou-manage-pojo" />
-        <module name="ruigou-manage-service" />
+        <module name="ruigou-sso" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="ruigou-manage-pojo" target="1.7" />
       <module name="ruigou-manage-service" target="1.7" />
       <module name="ruigou-manage-web" target="1.7" />
+      <module name="ruigou-order" target="1.7" />
       <module name="ruigou-parent" target="1.7" />
       <module name="ruigou-portal" target="1.7" />
       <module name="ruigou-rest" target="1.7" />

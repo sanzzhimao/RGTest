@@ -1,6 +1,6 @@
 package com.szm.service.impl;
 
-import com.szm.search.mapper.TbItemParamMapper;
+import com.szm.mapper.TbItemParamMapper;
 import com.szm.pojo.TbItemParam;
 
 import com.szm.pojo.TbItemParamExample;
