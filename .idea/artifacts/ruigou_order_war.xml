@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ruigou-order:war">
+    <output-path>$PROJECT_DIR$/ruigou-order/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ruigou-order</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ruigou-order.war">
+      <element id="artifact" artifact-name="ruigou-order:war exploded" />
+    </root>
+  </artifact>
+</component>

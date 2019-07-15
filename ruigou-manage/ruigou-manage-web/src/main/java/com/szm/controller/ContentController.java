@@ -25,7 +25,7 @@ public class ContentController {
 
     @RequestMapping("/save")
     @ResponseBody
-    public RuigouResult createContent(Long categoryId, String title,String subTiltle,String titleDesc,String url,String pic,String pic2,String content){
+    public RuigouResult createContent(Long categoryId, String title, String subTiltle, String titleDesc, String url, String pic, String pic2, String content){
         System.out.println("content-save");
         TbContent content1=new TbContent();
         content1.setCategoryId(categoryId);
