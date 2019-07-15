@@ -1,7 +1,7 @@
 package com.szm.search.pojo;
 
 public class Item {
-    private long id;
+    private String id;
     private String title;
     private String sell_point;
     private long price;
@@ -9,11 +9,11 @@ public class Item {
     private String category_name;
     private String item_desc;
 
-    public long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(String id) {
         this.id = id;
     }
 

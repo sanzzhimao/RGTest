@@ -33,8 +33,7 @@ public class ContentController {
     public RuigouResult getContentList(@PathVariable long contentCategoryId){
 
         try{
-            List<TbContent> list=service.getContentList(contentCategoryId);
-            return RuigouResult.ok(list);
+            return service.getContentList(contentCategoryId);
         }catch (Exception e){
             //发生错误，则返回不成功的result
             return RuigouResult.build(500, ExceptionUtil.getStackTrave(e));

@@ -26,5 +26,4 @@ public class SolrJTest {
         solrServer.deleteByQuery("*:*");
         solrServer.commit();
     }
-
 }

@@ -6,12 +6,10 @@ import com.szm.search.pojo.Item;
 import com.szm.search.service.IItemService;
 import com.szm.util.ExceptionUtil;
 import org.apache.solr.client.solrj.SolrServer;
-import org.apache.solr.client.solrj.SolrServerException;
 import org.apache.solr.common.SolrInputDocument;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.io.IOException;
 import java.util.List;
 
 @Service

@@ -1,6 +1,6 @@
 package com.szm.search.service.impl;
 
-import com.szm.search.mapper.IItemDao;
+import com.szm.search.solrdao.IItemDao;
 import com.szm.search.pojo.SearchResult;
 import com.szm.search.service.IItemSearchService;
 import org.apache.commons.lang3.StringUtils;
