@@ -1,3 +1,7 @@
+com\szm\portal\controller\CartController.class
 com\szm\portal\service\IContentService.class
+com\szm\portal\service\impl\CartServiceImpl.class
+com\szm\portal\service\ICartService.class
+com\szm\portal\pojo\CartItem.class
 com\szm\portal\controller\PageTrunController.class
 com\szm\portal\service\impl\ContentServiceImpl.class
