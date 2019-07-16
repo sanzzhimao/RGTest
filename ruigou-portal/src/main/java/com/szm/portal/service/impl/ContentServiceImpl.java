@@ -33,7 +33,7 @@ public class ContentServiceImpl implements IContentService {
         //使用工具类调用服务
         String result= HttpClientUtil.doGet(REST_BASE_URL+REST_INDEX_AD_URL);
         try {
-            RuigouResult result1=RuigouResult.formatToList(result, TbContent.class);
+            RuigouResult result1= RuigouResult.formatToList(result, TbContent.class);
             List<TbContent> list=(List<TbContent>)result1.getData();
             List<Map> resultList=new ArrayList<>();
             for (TbContent content:list){
