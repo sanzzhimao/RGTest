@@ -3,7 +3,8 @@
 ### Example user template
 ### Java template
 # IntelliJ project files
-
+.idea
+*.xml
 out
 gen
 # Compiled class file
