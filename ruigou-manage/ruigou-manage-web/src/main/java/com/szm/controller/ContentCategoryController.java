@@ -41,4 +41,29 @@ public class ContentCategoryController {
         RuigouResult result=service.insertContentCat(parentId, name);
         return result;
     }
+
+    /**
+     * 修改分内名字
+     * @param id
+     * @param name
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("/update")
+    public RuigouResult updateContentCategory(Long id,String name){
+        RuigouResult result=service.updateContentCat(id,name);
+        return result;
+    }
+
+    /**
+     * 删除分类
+     * @param id
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("/delete")
+    public RuigouResult delectContentCategory(Long id){
+        RuigouResult result=service.delectContentCat(id);
+        return result;
+    }
 }
