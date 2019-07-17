@@ -1,7 +1,6 @@
 package com.szm.rest.controller;
 
 import com.szm.pojo.RuigouResult;
-import com.szm.pojo.TbContent;
 import com.szm.rest.service.IContentService;
 import com.szm.util.ExceptionUtil;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,8 +8,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-
-import java.util.List;
 
 /**
  * rest 内容controller
