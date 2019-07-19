@@ -3,14 +3,13 @@ package com.szm.service.impl;
 import com.szm.mapper.TbItemMapper;
 import com.szm.mapper.TbOrderMapper;
 import com.szm.mapper.TbUserMapper;
-import com.szm.mapper.UserMapper;
 import com.szm.pojo.TbItemExample;
 import com.szm.pojo.TbOrderExample;
 import com.szm.pojo.TbUserExample;
-import com.szm.service.IInformationStatistics;
+import com.szm.service.IInformationStatisticsService;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class InformationStatisticsImpl implements IInformationStatistics {
+public class InformationStatisticsImpl implements IInformationStatisticsService {
 
     @Autowired
     TbItemMapper tbItemMapper;
