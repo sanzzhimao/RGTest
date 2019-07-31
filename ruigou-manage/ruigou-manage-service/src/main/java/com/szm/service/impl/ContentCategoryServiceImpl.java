@@ -70,4 +70,53 @@ public class ContentCategoryServiceImpl implements IContentCategoryService {
         //返回结果就返回一个RuigouResult,并且要把创建的新节点pojo对象返回
         return RuigouResult.ok(contentCategory);
     }
+
+    /**
+     * 修改分类
+     * @param id
+     * @param name
+     * @return RuigouResult
+     */
+    @Override
+    public RuigouResult updateContentCat(long id, String name) {
+        TbContentCategory tbContentCategory=new TbContentCategory();
+        tbContentCategory.setId(id);
+        tbContentCategory.setName(name);
+        tbContentCategory.setUpdated(new Date());
+//        TbContentCategoryExample example=new TbContentCategoryExample();
+//        TbContentCategoryExample.Criteria criteria=example.createCriteria();
+//        criteria.andIdEqualTo(id);
+        mapper.updateByPrimaryKeySelective(tbContentCategory);
+        return RuigouResult.ok();
+    }
+
+    /**
+     * 删除分类
+     * @param id
+     * @return
+     */
+    @Override
+    public RuigouResult delectContentCat(long id) {
+        TbContentCategory tbContentCategory=mapper.selectByPrimaryKey(id);
+        List<TbContentCategory> list=new ArrayList<>();
+        TbContentCategoryExample example=new TbContentCategoryExample();
+        TbContentCategoryExample.Criteria criteria=example.createCriteria();
+        criteria.andParentIdEqualTo(tbContentCategory.getParentId());
+        list=mapper.selectByExample(example);
+        if(list.size()==1){
+            TbContentCategory tbContentCategory1=new TbContentCategory();
+            tbContentCategory1.setId(tbContentCategory.getParentId());
+            tbContentCategory1.setIsParent(false);
+            tbContentCategory1.setUpdated(new Date());
+            mapper.updateByPrimaryKeySelective(tbContentCategory1);
+        }
+        mapper.deleteByPrimaryKey(id);
+        TbContentCategoryExample example1=new TbContentCategoryExample();
+        TbContentCategoryExample.Criteria criteria1=example1.createCriteria();
+        criteria1.andParentIdEqualTo(id);
+        mapper.deleteByExample(example1);
+
+        return RuigouResult.ok();
+    }
 }
+
