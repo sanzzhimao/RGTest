@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ruigou-rest" />
     <file type="web" url="file://$PROJECT_DIR$/ruigou-search" />
     <file type="web" url="file://$PROJECT_DIR$/ruigou-sso" />
+    <type id="Spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
